@@ -5,13 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Survey Form</title>
     <style>
+      
+      body {
+            background-color: #f13e3e;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+        
+       /* Styling form-control Class */
+       .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
 
+        /* Styling the Form (Color, Padding, Shadow) */
+        form {
+            background-color: #ffffff;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
 
     </style>
 </head>
-<body>
+<body style="text-align: center;">
+
     
-    <h1> The Fittest Survey Form</h1>
+    <h1 style="color: white;"> The Fittest Survey Form</h1>
 
     <form id="form">
 
@@ -50,7 +71,7 @@
         </div>
   
         <div class="form-control">
-            <label for="role" id="label-role">
+            <label for="role" id="myrole">
                 Which option best describes you?
             </label>
              
@@ -67,8 +88,7 @@
   
         <div class="form-control">
             <label>
-                Would you recommend GeeksforGeeks
-                to a friend?
+                Would you recommend the fittest app ?
             </label>
  
             <!-- Input Type Radio Button -->
@@ -90,47 +110,46 @@
         </div>
   
         <div class="form-control">
-            <label>Languages and Frameworks known
+            <label> Your Favourite Foods 
                 <small>(Check all that apply)</small>
             </label>
             <!-- Input Type Checkbox -->
             <label for="inp-1">
                 <input type="checkbox"
-                       name="inp">C</input></label>
+                       name="inp"> Chicken </input></label>
             <label for="inp-2">
                 <input type="checkbox"
-                       name="inp">C++</input></label>
+                       name="inp"> Beef </input></label>
             <label for="inp-3">
                 <input type="checkbox"
-                       name="inp">C#</input></label>
+                       name="inp"> Bread </input></label>
             <label for="inp-4">
                 <input type="checkbox"
-                       name="inp">Java</input></label>
+                       name="inp"> Coffee</input></label>
             <label for="inp-5">
                 <input type="checkbox"
-                       name="inp">Python</input></label>
+                       name="inp"> Pizza </input></label>
             <label for="inp-6">
                 <input type="checkbox"
-                       name="inp">JavaScript</input></label>
+                       name="inp"> Burger </input></label>
             <label for="inp-7">
                 <input type="checkbox"
-                       name="inp">React</input></label>
+                       name="inp"> Pasta </input></label>
             <label for="inp-7">
                 <input type="checkbox"
-                       name="inp">Angular</input></label>
+                       name="inp"> Ice Cream </input></label>
             <label for="inp-7">
                 <input type="checkbox"
-                       name="inp">Django</input></label>
+                       name="inp"> Biryani </input></label>
             <label for="inp-7">
                 <input type="checkbox"
-                       name="inp">Spring</input></label>
+                       name="inp"> Tea </input></label>
         </div>
   
         <div class="form-control">
             <label for="comment">
-                Any comments or suggestions
+                Any comments or suggestions for App
             </label>
- 
             <!-- multi-line text input control -->
             <textarea name="comment" id="comment"
                 placeholder="Enter your comment here">
