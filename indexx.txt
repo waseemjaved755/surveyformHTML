@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DivSpan Practise</title>
+    
+    <style> 
+
+    h1
+    {
+        color: blue;
+    }
+     .MyDiv
+     {
+           color: blueviolet;
+     }
+     div
+     {
+        display: block;
+     }
+     .MySpan
+     {
+        color: blue;
+     }
+    </style>
+</head>
+<body>
+    <h1 class="heading1"> Div & Span Practise</h1>
+
+    <p><span> Muhammad Waseem Javed</span></p>
+    <p><span class="MySpan"> Web3 Developer </span></p> <hr>
+
+
+    <div class="MyDiv"> 
+        <p> This is a Knowledge Stream Bootcamp</p>
+        <p> And we are learning MERN</p>
+    </div>
+</body>
+</html>
