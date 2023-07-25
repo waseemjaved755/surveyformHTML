@@ -1,9 +1,9 @@
  
       body {
-        background-color: #f13e3e;
+        /* background-color: #f13e3e; */
         font-family: "Trirong", serif;
         text-align: center;
-        background-image: url(image1.jpg);
+        /* background-image: url(image1.jpg); */
         
     }
    .form-control {
@@ -21,3 +21,22 @@
     button{
         color: blue;
     }
+    .flexboxing
+    {
+        background-color: blue;
+        display: flex;
+        
+
+    }
+    .flexboxing > div {
+        background-color: #f1f1f1;
+       font-size: 30px;
+       justify-content:space-around;
+       align-items: center;
+       margin: 10px;
+       padding: 20px;
+       width: full;
+       height: 100%;
+         
+}
+    
